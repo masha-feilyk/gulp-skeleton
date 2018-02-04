@@ -1,0 +1,21 @@
+{
+  "name": "gulp skeleton",
+  "description": "Masha's gulp skeleton",
+  "main": "gulpfile.js",
+  "authors": [
+    "Mariia Feilyk"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/masha-feilyk/gulp-skeleton",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/js/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

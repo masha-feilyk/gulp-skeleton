@@ -1,0 +1,44 @@
+.contact
+  display: block
+  text-align: center
+
+.contact__list
+  display: flex
+  margin: 0 -10px
+
+.contact__item
+  display: block
+  padding: 0 10px
+
+.contact__link
+  position: relative
+  display: block
+  padding-left: 30px
+  text-decoration: none
+
+  &:hover
+
+    .contact__text
+      color: #E8487F
+
+
+  .svg-ico
+    position: absolute
+    top: 50%
+    left: 0
+    margin-top: -11px
+
+  .svg-ico-facebook
+    +svg-ico(20, 20, #E8487F)
+
+  .svg-ico-instagram
+    +svg-ico(20, 20, #E8487F)
+
+
+.contact__text
+  display: block
+  font-size: 16px
+  line-height: 20px
+  color: #29335C
+  transition: color .3s ease
+  +roboto-regular

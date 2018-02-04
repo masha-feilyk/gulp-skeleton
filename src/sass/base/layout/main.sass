@@ -1,0 +1,33 @@
+html
+  height: 100%
+  overflow-y: scroll
+  -webkit-overflow-scrolling: touch
+
+body
+  display: block
+  height: 100%
+  font-size: 16px
+  line-height: 1.2
+  color: #333333
+  background: #FADAD8
+  box-sizing: border-box
+  +roboto-regular
+
+svg:not(:root)
+  overflow: hidden
+
+.sprite
+  position: absolute
+  z-index: -1
+  left: 0
+  top: 0
+  width: 0
+  height: 0
+  opacity: 0
+  visibility: hidden
+
+.fix
+  position: relative
+  max-width: 1140px
+  padding: 0 30px
+  margin: 0 auto

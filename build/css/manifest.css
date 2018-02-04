@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
+
+body {
+  display: block;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #333333;
+  background: #FADAD8;
+  box-sizing: border-box;
+  font-family: 'robotoregular', sans-serif; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+.sprite {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden; }
+
+.fix {
+  position: relative;
+  max-width: 1140px;
+  padding: 0 30px;
+  margin: 0 auto; }
+
+.content {
+  display: block;
+  padding: 30px 0 0;
+  box-sizing: border-box; }
+
+.content__title {
+  margin-bottom: 50px;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #AD2D63;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'robotomedium', sans-serif; }
+
+.about {
+  display: flex;
+  margin-bottom: 50px; }
+
+.about__img {
+  display: block;
+  width: 220px;
+  height: 250px;
+  box-shadow: 0 2px 80px -3px #6f3662; }
+
+.about__description {
+  display: block;
+  width: calc(100% - 260px);
+  padding-left: 40px;
+  box-sizing: border-box; }
+
+.about__text {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #F65676;
+  font-family: 'robotoregular', sans-serif; }
+  .about__text:last-child {
+    margin-bottom: 0; }
+
+.contact {
+  display: block;
+  text-align: center; }
+
+.contact__list {
+  display: flex;
+  margin: 0 -10px; }
+
+.contact__item {
+  display: block;
+  padding: 0 10px; }
+
+.contact__link {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  text-decoration: none; }
+  .contact__link:hover .contact__text {
+    color: #E8487F; }
+  .contact__link .svg-ico {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -11px; }
+  .contact__link .svg-ico-facebook {
+    width: 20px;
+    height: 20px;
+    fill: #E8487F; }
+  .contact__link .svg-ico-instagram {
+    width: 20px;
+    height: 20px;
+    fill: #E8487F; }
+
+.contact__text {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  color: #29335C;
+  transition: color .3s ease;
+  font-family: 'robotoregular', sans-serif; }
